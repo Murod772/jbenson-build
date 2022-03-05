@@ -1,0 +1,106 @@
+/*
+@Author: ThemeMascot
+@URL: http://ThemeMascot.com
+
+This is the file where you can add your custom styles to change the look of the
+theme. But don't modify style-main.css file.
+
+*/
+
+/* Your custom css codes start here: */
+
+#google_translate_element select{
+    background:#C12127;
+    color:#ffffff;
+    border: none;
+    border-radius:3px;
+    padding:6px 8px
+}
+    
+/*google translate link | logo */
+.goog-logo-link{
+    display:none!important;
+}
+.goog-te-gadget{
+    color:transparent!important;
+}
+
+/* google translate banner-frame */
+
+.goog-te-banner-frame{
+    display:none !important;
+}
+
+#goog-gt-tt, .goog-te-balloon-frame{
+    display: none !important;
+}
+.goog-text-highlight { 
+    background: none !important; 
+    box-shadow: none !important;
+}
+
+.take-flags-back{
+    position: relative !important;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.header-content:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 215px;
+    height: 105px;
+    z-index: 1;
+    background: url(../images/header-left-bg.png) no-repeat 0 0;
+}
+
+.header-content:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 215px;
+    height: 105px;
+    z-index: 1;
+    background: url(../images/header-right-bg.png) no-repeat 0 0;
+}
+
+.zet-index{
+    z-index: 100;
+    padding-bottom:105px;
+}
+
+
+.theme-color{
+    text-shadow:
+            1px  1px 0 #000,
+            -1px -1px 0 #000,  
+            1px -1px 0 #000,
+            -1px  1px 0 #000,
+            1px  1px 0 #000;
+    color: #ffffff;
+}
+
+.darken-bg{
+    background-color: rgb(0, 0, 0);
+    background-image: url(assets/images/bg-video.jpg);
+}
+
+.section-content{
+    position: relative !important;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.align-left {
+    float: right;
+}
