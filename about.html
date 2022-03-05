@@ -39,7 +39,7 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         <script src="assets/js/jquery-2.2.4.min.js"></script>
         <script src="assets/js/jquery-ui.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- <script src="assets/js/bootstrap.min.js"></script> -->
         <!-- JS | jquery plugin collection for this theme -->
         <script src="assets/js/jquery-plugin-collection.js"></script>
     
@@ -66,15 +66,34 @@
         </div>
     
         <header id="header" class="header">
-            <div class="header-top bg-black sm-text-center text-end border-top-theme-color-3px p-0">
+            <div class="header-top bg-black-333 sm-text-center border-top-theme-color-3px p-0">
                 <div class="container">
-                <div class="row">
-                    <div class="col-md-12 p-10 pb-0">
-                    <div class="widget no-border m-0">
-                        <div id="google_translate_element"></div>
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div class="widget no-border m-0">
+                        <ul class="list-inline xs-text-center text-white mt-5">
+                          <li class="m-0 pl-10 pr-10"> <a href="#" class="text-white"><i class="fa fa-phone text-theme-colored"></i>  301-858-3148</a> </li>
+                          <li class="m-0 pl-10 pr-10"> 
+                            <a href="#" class="text-white"><i class="fa fa-envelope-o text-theme-colored"></i>  info@joannecbenson.com</a> 
+                          </li>
+                        </ul>
+                      </div>
                     </div>
+                    <div class="col-md-4 pr-0">
+                      <div class="widget no-border m-0">
+                        <ul class="styled-icons icon-dark icon-flat icon-sm pull-right flip sm-pull-none sm-text-center mt-sm-15">
+                          <li><a href="#"><i class="fa fa-facebook text-white"></i></a></li>
+                          <li><a href="#"><i class="fa fa-twitter text-white"></i></a></li>
+                          <li><a href="#"><i class="fa fa-google-plus text-white"></i></a></li>
+                          <li><a href="#"><i class="fa fa-instagram text-white"></i></a></li>
+                          <li><a href="#"><i class="fa fa-linkedin text-white"></i></a></li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
+                    <div class="col-md-2">
+                      <a class="btn btn-colored btn-flat btn-theme-colored pb-10 ajaxload-popup" href="volunteer-form.html">Volunteer</a>
+                    </div>
+                  </div>
                 </div>
             </div>
 
@@ -113,6 +132,23 @@
         </header>
 
         <div class="main-content">
+            <section class="inner-header divider layer-overlay overlay-dark-5" data-bg-img="assets/images/about-page-bg.jpg">
+                <div class="container pt-60 pb-40">
+                  <!-- Section Content -->
+                  <div class="section-content pt-100">
+                    <div class="row"> 
+                      <div class="col-md-12">
+                        <h3 class="title text-white">Biography</h3>
+                        <ul class="breadcrumb white">
+                          <li class="text-white"><a href="index.html">Home / </a></li>
+                          <li class="active"> About</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </section>    
+
             <section class="bg-silver-light">
                 <div class="container">
                   <div class="section-content">
@@ -177,21 +213,21 @@
                     <h5 class="widget-title line-bottom">Latest News</h5>
                     <div class="latest-posts">
                     <article class="post media-post clearfix pb-0 mb-10">
-                        <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                        <a href="#" class="post-thumb"><img alt="" src=""></a>
                         <div class="post-right">
                         <h5 class="post-title mt-0 mb-5"><a href="#">Sustainable Construction</a></h5>
                         <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                         </div>
                     </article>
                     <article class="post media-post clearfix pb-0 mb-10">
-                        <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                        <a href="#" class="post-thumb"><img alt="" src=""></a>
                         <div class="post-right">
                         <h5 class="post-title mt-0 mb-5"><a href="#">Industrial Coatings</a></h5>
                         <p class="post-date mb-0 font-12">Mar 08, 2015</p>
                         </div>
                     </article>
                     <article class="post media-post clearfix pb-0 mb-10">
-                        <a href="#" class="post-thumb"><img alt="" src="http://placehold.it/80x55"></a>
+                        <a href="#" class="post-thumb"><img alt="" src=""></a>
                         <div class="post-right">
                         <h5 class="post-title mt-0 mb-5"><a href="#">Storefront Installations</a></h5>
                         <p class="post-date mb-0 font-12">Mar 08, 2015</p>
@@ -210,6 +246,7 @@
                     <li><a href="#">Latest News</a></li>
                     <li><a href="#">Gallery</a></li>              
                     </ul>
+                    <div id="google_translate_element"></div>
                 </div>
                 </div>
                 <a class="hvr-underline-from-center text-center text-white" href="#">Paid for by Friends of Joanne C. Benson, Saleem Mateem, Treasurer</a>
@@ -229,7 +266,6 @@
 
     <!-- JS | Custom script for all pages -->
     <script src="assets/js/custom.js"></script>
-    <script type="module" src="/main.js"></script>
     <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
