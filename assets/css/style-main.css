@@ -1707,10 +1707,10 @@ form label {
 }
 /* form error */
 form .form-control.error {
-  border: 2px solid #C12127;
+  border: 2px solid #33ADFF;
 }
 form .error {
-  color: #C12127;
+  color: #33ADFF;
 }
 /* -------- Donation Form ---------- */
 .donation-form .form-group label.radio-inline {
